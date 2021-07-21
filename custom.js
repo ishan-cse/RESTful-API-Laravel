@@ -36,7 +36,7 @@
         var formData = new FormData(this);
             $.ajax({
                 type:'POST',
-                url:"http://localhost:8000/api/employee/add/with-form",
+                url:"https://pacific-journey-56377.herokuapp.com/api/employee/add/with-form",
                 data: formData,
                 cache:false,
                 contentType: false,
@@ -60,7 +60,7 @@
             type:"post",
             dataType:"json",
             data:{id:id},
-            url:"http://localhost:8000/api/employee/edit",
+            url:"https://pacific-journey-56377.herokuapp.com/api/employee/edit",
             success:function(response){
                 console.log(response);
                 $('#editId').val(response.id);
@@ -101,7 +101,7 @@
         var formDataUpdate = new FormData(this);
             $.ajax({
                 type:'POST',
-                url:"http://localhost:8000/api/employee/update/with-form",
+                url:"https://pacific-journey-56377.herokuapp.com/api/employee/update/with-form",
                 data: formDataUpdate,
                 cache:false,
                 contentType: false,
@@ -126,7 +126,7 @@
             type:"DELETE",
             dataType:"json",
             data:{id:id},
-            url:"http://localhost:8000/api/employee/delete",
+            url:"https://pacific-journey-56377.herokuapp.com/api/employee/delete",
             success:function(response){
                 allData();
                 console.log('successfully data deleted!');
