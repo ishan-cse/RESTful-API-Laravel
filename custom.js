@@ -18,7 +18,7 @@
                     data=data+"<td>"+value.name+"</td>";
                     data=data+"<td>"+value.title+"</td>";
                     data=data+"<td>"+value.institute+"</td>";
-                    data=data+"<td>"+value.image+"</td>";
+                    //data=data+"<td>"+value.image+"</td>";
                     data=data+"<td><button class='btn btn-info' onclick='editData("+value.id+")' data-toggle='modal' data-target='#editModal'>EDIT</button>";
                     data=data+" <button class='btn btn-danger' onclick='deleteData("+value.id+")'>DELETE</button></td>";
                     data=data+"</tr>";
@@ -111,7 +111,7 @@
                     allData();
                     this.reset();
                     //alert('File has been uploaded successfully');
-                    console.log(data);
+                    console.log(data.msg);
                 },
                 error: function(data){
                     console.log(data);
