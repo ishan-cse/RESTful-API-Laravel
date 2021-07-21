@@ -9,7 +9,7 @@
         $.ajax({
             type:"GET",
             dataType:"json",
-            url:"http://localhost:8000/api/employee/all",
+            url:"https://pacific-journey-56377.herokuapp.com/api/employee/all",
             success:function(response){
                 console.log(response);
                 var data="";
