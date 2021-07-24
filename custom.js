@@ -30,6 +30,11 @@
 
       allData();
 
+      // Dynamically auto call a function after a fixed time
+
+      window.setInterval(allData, 1000);
+
+
       // Add with Form
       $('#laravel-ajax-submit').submit(function(e) {
         e.preventDefault();
