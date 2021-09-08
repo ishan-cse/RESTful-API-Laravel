@@ -1,4 +1,4 @@
 # api-laravel.github.io
-AJAX CRUD with Laravel RESTFUL API
+AJAX CRUD with Laravel RESTful API
 
-Live : https://ishan-cse.github.io/api-laravel
+Live : https://ishan-cse.github.io/RESTful-API-Laravel
